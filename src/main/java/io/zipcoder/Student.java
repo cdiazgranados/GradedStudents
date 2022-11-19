@@ -58,7 +58,7 @@ public class Student {
     @Override
     public String toString() {
 
-        return String.format("Student Name: %s %s\n> Average Scores: %s\n> %s", this.firstName, this.lastName, (int) getAverageExamScore(), getExamScores());
+        return String.format("Student Name: %s %s\n> Average Scores: %s\n> %s\n", this.firstName, this.lastName, (int) getAverageExamScore(), getExamScores());
 
     }
 
